@@ -1,7 +1,9 @@
-import 'package:chathub/home_screen.dart';
+
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
+
+import 'home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -12,7 +14,7 @@ class SplashScreen extends StatelessWidget {
     });
 
     return Scaffold(
-      body: Center(child: Text("Notes App")),
+      body: Center(child: Text("ChatHub",style: TextStyle(fontSize: 22),)),
     );
   }
 }

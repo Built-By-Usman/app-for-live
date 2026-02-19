@@ -1,8 +1,10 @@
-import 'package:chathub/note_model.dart';
-import 'package:chathub/routes.dart';
+
+import 'package:ChatHub/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+
+import 'note_model.dart';
 
 
 void main() async{

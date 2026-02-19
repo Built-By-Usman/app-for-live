@@ -6,9 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.chathub"
+    namespace = "com.abdullahiqbal.chathub"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion ="29.0.13846066"
+   // ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -21,7 +22,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.chathub"
+        applicationId = "com.abdullahiqbal.chathub"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
