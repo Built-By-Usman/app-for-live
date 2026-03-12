@@ -18,8 +18,8 @@ if (keystorePropertiesFile.exists()) {
 android {
     namespace = "com.abdullahiqbal.chathub"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion ="29.0.13846066"
-    //ndkVersion = flutter.ndkVersion
+    //ndkVersion ="29.0.13846066"
+    ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
